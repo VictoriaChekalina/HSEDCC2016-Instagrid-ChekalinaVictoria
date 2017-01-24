@@ -1,0 +1,36 @@
+
+.menubar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;;
+  align-items: center;
+  width: 100vw;
+  height: 40px;
+  background-color:  black;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  z-index: 2;
+}
+
+nav a {
+  padding: 5vw;
+}
+
+a {
+  color: white;
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100vw;
+  height: 40px;
+  background-color: black;
+}
+
+/*____*/
+a {
+  text-decoration: none;
+}

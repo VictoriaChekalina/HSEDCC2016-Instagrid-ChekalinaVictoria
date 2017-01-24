@@ -1,0 +1,81 @@
+body {
+  min-width: 100vw;
+  font-family: 'Overpass Mono';
+  width: 100vw;
+}
+
+.GR {
+  width: 60vw;
+  height: 40vh;
+  margin-top: 30vh;
+  margin-left: 20vw;
+  position: fixed;
+  overflow: scroll;
+}
+
+.gallery {
+  height: 40vh;
+  width: 180vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+
+section.small {
+  width: 20vh;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+
+div.large {
+  width: 40vh;
+  height: 40vh;
+}
+
+
+div.small {
+  width: 20vh;
+  height: 20vh;
+}
+
+
+
+.large#img1 {
+background-image: url(../imgs/img1.png);
+}
+
+.large#img2 {
+background-image: url(../imgs/img4.png);
+}
+
+.small#img1_1 {
+background-image: url(../imgs/img2.png);
+}
+
+.small#img1_2 {
+background-image: url(../imgs/img3.png);
+}
+
+.small#img2_1 {
+background-image: url(../imgs/img5.png);
+}
+
+.small#img2_2 {
+background-image: url(../imgs/img6.png);
+}
+
+.small#img3_1 {
+background-image: url(../imgs/img8.png);
+}
+
+.small#img3_2 {
+background-image: url(../imgs/img9.png);
+}
