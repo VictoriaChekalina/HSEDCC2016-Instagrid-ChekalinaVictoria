@@ -56,6 +56,10 @@ background-image: url(../imgs/img1.png);
 background-image: url(../imgs/img4.png);
 }
 
+.large#img3 {
+background-image: url(../imgs/img7.png);
+}
+
 .small#img1_1 {
 background-image: url(../imgs/img2.png);
 }
